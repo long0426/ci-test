@@ -23,7 +23,7 @@ spec:
       containers:
         - name: svc-service-registry
           imagePullPolicy: Always
-          image: image-registry.openshift-image-registry.svc:5000/message_on_kafka/cpa:367813fc6f79bffb6f8dedd09bdeefccfbf84543
+          image: image-registry.openshift-image-registry.svc:5000/message_on_kafka/cpa:1f763491044a6eab1a7a0673ac0c9a70d0648e4a
           ports:
             - containerPort: 8582
               protocol: TCP
